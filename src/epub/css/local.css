@@ -8,3 +8,17 @@ var{
 abbr.name{
 	white-space: nowrap;
 }
+
+.signature{
+	font-variant: small-caps;
+}
+
+footer{
+	margin-top: 1em;
+	text-align: right;
+}
+
+[epub|type~="dedication"] [epub|type~="se:name.person.full-name"]{
+	font-variant: small-caps;
+	font-style: normal;
+}
