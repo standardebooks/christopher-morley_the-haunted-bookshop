@@ -48,7 +48,8 @@ blockquote.booklist p + p{
 	text-indent: 0;
 }
 
-blockquote.placard{
+blockquote.placard,
+[epub|type~="z3998:magazine"]{
 	border: 1px solid;
 	padding: 1em 2em;
 }
