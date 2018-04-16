@@ -28,3 +28,65 @@ footer{
 	font-variant: small-caps;
 	font-style: normal;
 }
+
+blockquote.sign{
+	font-variant: small-caps;
+	text-align: center;
+	border: 1px solid;
+}
+
+blockquote.sign p + p{
+	text-indent: 0;
+}
+
+em{
+	font-variant: small-caps;
+	font-style: normal;
+}
+
+blockquote.booklist p + p{
+	text-indent: 0;
+}
+
+blockquote.placard{
+	border: 1px solid;
+	padding: 1em 2em;
+}
+
+blockquote.placard p + p{
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p{
+	text-align: left;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:poem"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:poem"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:poem"] p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:poem"] + p{
+	text-indent: 0;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+[epub|type~="z3998:poem"] em{
+	font-variant: small-caps;
+	font-style: normal;
+}
