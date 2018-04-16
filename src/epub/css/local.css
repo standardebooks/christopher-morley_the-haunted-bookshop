@@ -19,6 +19,7 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
+header,
 footer{
 	margin-top: 1em;
 	text-align: right;
