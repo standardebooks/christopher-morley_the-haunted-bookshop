@@ -1,6 +1,16 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+[epub|type~="dedication"] [epub|type~="se:name.person.full-name"]{
+	font-style: normal;
+	font-variant: small-caps;
+}
+
+b{
+	font-variant: small-caps;
+	font-weight: normal; 
+}
+
 abbr.name{
 	white-space: nowrap;
 }
@@ -15,10 +25,6 @@ span[epub|type~="subtitle"]{
 	font-variant: small-caps;
 }
 
-header{
-	margin-top: 1em;
-}
-
 header p.address{
 	text-align: right;
 }
@@ -28,52 +34,56 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="dedication"] [epub|type~="se:name.person.full-name"]{
-	font-style: normal;
-	font-variant: small-caps;
-}
-
 blockquote.sign{
 	border: 1px solid;
 	font-variant: small-caps;
+	padding: 1em;
 	text-align: center;
 }
 
 blockquote.sign p{
 	text-align: center;
-}
-
-blockquote.sign p + p{
 	text-indent: 0;
 }
 
-p.headline{
-	font-style: normal;
-	font-variant: small-caps;
+section#chapter-5 blockquote.sign p:last-child{
+	border-top: 1px solid;
 }
 
-p.headline + p{
+[epub|type~="dedication"] header p,
+[epub|type~="z3998:magazine"] header p,
+[epub|type~="z3998:newspaper"] header p,
+[epub|type~="z3998:poem"] header p,
+blockquote.placard header p{
+	margin: 1em 0;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+[epub|type~="z3998:newspaper"] header+p{
+	text-align: center;
+}
+
+header p + p{
 	text-indent: 0;
 }
 
 [epub|type~="z3998:magazine"] > p{
-	text-indent: 0;
-	margin-top: 0.5em;
-}
-
-blockquote.booklist p + p{
 	text-indent: 0;
 }
 
 blockquote.placard,
 [epub|type~="z3998:magazine"]{
 	border: 1px solid;
-	padding: 1em 2em;
+	padding: 1em;
 }
 
-blockquote.placard p + p{
-	padding-left: 1em;
-	text-indent: -1em;
+blockquote.placard > p{
+	text-indent: 0;
+}
+
+blockquote.placard > p:nth-child(2){
+	border-top: 1px solid;
 }
 
 [epub|type~="z3998:poem"] p{
@@ -140,4 +150,8 @@ table[epub|type~="z3998:drama"]{
 	text-align: right;
 	width: 20%;
 	font-variant: small-caps;
+}
+
+ul{
+	list-style: none;
 }
