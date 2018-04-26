@@ -8,7 +8,7 @@
 
 b{
 	font-variant: small-caps;
-	font-weight: normal; 
+	font-weight: normal;
 }
 
 abbr.name{
@@ -46,8 +46,10 @@ blockquote.sign p{
 	text-indent: 0;
 }
 
-section#chapter-5 blockquote.sign p:last-child{
+section#chapter-5 blockquote.sign p + p{
 	border-top: 1px solid;
+	margin-top: .5em;
+	padding-top: .5em;
 }
 
 [epub|type~="dedication"] header p,
