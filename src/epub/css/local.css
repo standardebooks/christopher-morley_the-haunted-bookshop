@@ -6,15 +6,6 @@
 	font-variant: small-caps;
 }
 
-b{
-	font-variant: small-caps;
-	font-weight: normal;
-}
-
-abbr.name{
-	white-space: nowrap;
-}
-
 span[epub|type~="subtitle"]{
 	display: block;
 	font-variant: small-caps;
@@ -23,6 +14,14 @@ span[epub|type~="subtitle"]{
 
 .signature{
 	font-variant: small-caps;
+}
+
+[epub|type~="z3998:letter"] header{
+	text-align: left;
+}
+
+[epub|type~="z3998:letter"] [epub|type~="z3998:poem"] header p{
+	text-align: center;
 }
 
 header p.address{
@@ -59,10 +58,9 @@ section#chapter-5 blockquote.sign p + p{
 blockquote.placard header p{
 	margin: 1em 0;
 	font-variant: small-caps;
-	text-align: center;
 }
 
-[epub|type~="z3998:newspaper"] header+p{
+[epub|type~="z3998:newspaper"] header + p{
 	text-align: center;
 }
 
@@ -86,6 +84,7 @@ blockquote.placard > p{
 
 blockquote.placard > p:nth-child(2){
 	border-top: 1px solid;
+	padding-top: 1em;
 }
 
 [epub|type~="z3998:poem"] p{
