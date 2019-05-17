@@ -26,24 +26,25 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Haunted Bookshop</dc:title>
 		<meta property="file-as" refines="#title">Haunted Bookshop, The</meta>
 		<dc:subject id="subject-1">Booksellers and bookselling -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Brooklyn (New York, N.Y.) -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Mystery and detective stories</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/172</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/172</meta>
-		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/172</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh2007102098</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh2007101896</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="se:subject">Fiction</meta>
 		<dc:description id="description">A missing copy of an obscure book leads to mysterious activities at a Brooklyn bookshop.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;“This shop is haunted” reads the sign on the front of the bookshop; not by the ghost of a person from the past, but by the ghosts of all great literature which haunt all libraries and bookstores.&lt;/p&gt;
 			&lt;p&gt;The owner of the bookshop is so focused on his books that he cannot see the unusual things that are going on in his shop. It takes a young advertising salesman who is seeking new business and the daughter of a rich client who has been sent to earn a living for herself in the bookshop to discover the plot that’s brewing amongst the bookshelves.&lt;/p&gt;
 			&lt;p&gt;&lt;em&gt;The Haunted Bookshop&lt;/em&gt; is a gentle mystery story which is full of wonderful literary references. It is set in the aftermath of the First World War before the Paris Peace Conference took place in an age where the “Lost and Found” columns are &lt;em&gt;the&lt;/em&gt; place to look for significant information.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/172</dc:source>
 		<dc:source>https://archive.org/details/hauntedbookshop003143mbp</dc:source>
