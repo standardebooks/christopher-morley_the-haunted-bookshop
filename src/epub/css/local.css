@@ -24,7 +24,7 @@ span[epub|type~="subtitle"]{
 	text-align: center;
 }
 
-header p.address{
+#chapter-9 [epub|type~="z3998:letter"] header p:first-of-type{
 	text-align: right;
 }
 
