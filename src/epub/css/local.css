@@ -45,10 +45,14 @@ blockquote.sign p{
 	text-indent: 0;
 }
 
-section#chapter-5 blockquote.sign p + p{
+#chapter-5 blockquote.sign p + p{
 	border-top: 1px solid;
 	margin-top: .5em;
 	padding-top: .5em;
+}
+
+#chapter-5 blockquote.sign:first-of-type{
+	text-transform: uppercase;
 }
 
 [epub|type~="dedication"] header p,
