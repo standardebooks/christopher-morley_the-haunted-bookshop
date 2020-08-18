@@ -6,4 +6,10 @@
 			<reason>The nested &lt;blockquote&gt; is a poem within a placard.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>t-007</code>
+			<reason>Possessive s is part of the book's title.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
