@@ -45,7 +45,7 @@ blockquote.sign p{
 	padding-top: .5em;
 }
 
-#chapter-5 blockquote.sign:first-of-type{
+#chapter-5 blockquote:first-of-type{
 	text-transform: uppercase;
 }
 
