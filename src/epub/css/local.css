@@ -11,7 +11,7 @@
 }
 
 [epub|type~="z3998:letter"] header{
-	text-align: left;
+	text-align: initial;
 }
 
 [epub|type~="z3998:letter"] [epub|type~="z3998:poem"] header p{
@@ -86,7 +86,7 @@ blockquote.placard > p:nth-child(2){
 }
 
 [epub|type~="z3998:poem"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
