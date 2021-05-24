@@ -50,15 +50,15 @@ blockquote.sign p{
 }
 
 [epub|type~="dedication"] header p,
-[epub|type~="z3998:magazine"] header p,
-[epub|type~="z3998:newspaper"] header p,
+#chapter-3 blockquote:first-of-type header p,
+#chapter-4 blockquote:first-of-type header p,
 [epub|type~="z3998:poem"] header p,
 blockquote.placard header p{
 	margin: 1em 0;
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:newspaper"] header + p{
+#chapter-4 blockquote:first-of-type header + p{
 	text-align: center;
 }
 
@@ -66,12 +66,12 @@ header p + p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:magazine"] > p{
+#chapter-3 blockquote:first-of-type > p{
 	text-indent: 0;
 }
 
 blockquote.placard,
-[epub|type~="z3998:magazine"]{
+#chapter-3 blockquote:first-of-type{
 	border: 1px solid;
 	padding: 1em;
 }
