@@ -40,7 +40,7 @@
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A missing copy of an obscure book leads to mysterious activities at a Brooklyn bookshop.</dc:abstract>
+		<meta property="schema:abstract">A missing copy of an obscure book leads to mysterious activities at a Brooklyn bookshop.</meta>
 		<dc:description>
 			&lt;p&gt;“This shop is haunted” reads the sign on the front of the bookshop; not by the ghost of a person from the past, but by the ghosts of all great literature which haunt all libraries and bookstores.&lt;/p&gt;
 			&lt;p&gt;The owner of the bookshop is so focused on his books that he cannot see the unusual things that are going on in his shop. It takes a young advertising salesman who is seeking new business and the daughter of a rich client who has been sent to earn a living for herself in the bookshop to discover the plot that’s brewing amongst the bookshelves.&lt;/p&gt;
