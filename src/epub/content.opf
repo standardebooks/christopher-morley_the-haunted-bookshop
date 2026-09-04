@@ -30,8 +30,8 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Haunted Bookshop</dc:title>
 		<meta property="file-as" refines="#title">Haunted Bookshop, The</meta>
-		<dc:subject id="subject-1">Booksellers and bookselling -- Fiction</dc:subject>
-		<dc:subject id="subject-2">Brooklyn (New York, N.Y.) -- Fiction</dc:subject>
+		<dc:subject id="subject-1">Booksellers and bookselling--Fiction</dc:subject>
+		<dc:subject id="subject-2">Brooklyn (New York, N.Y.)--Fiction</dc:subject>
 		<dc:subject id="subject-3">Mystery and detective stories</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh2007102098</meta>
