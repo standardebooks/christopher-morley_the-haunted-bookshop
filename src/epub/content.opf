@@ -64,6 +64,7 @@
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<dc:contributor id="artist">Magnus Enckell</dc:contributor>
 		<meta property="file-as" refines="#artist">Enckell, Magnus</meta>
+		<meta property="schema:alternateName" refines="#artist">Knut Magnus Enckell</meta>
 		<link href="https://en.wikipedia.org/wiki/Magnus_Enckell" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n00089946.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
@@ -76,7 +77,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Michael Atkinson</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Atkinson, Michael</meta>
-		<link href="https://www.github.com/michael-77" refines="#producer-1" rel="schema:url"/>
+		<link href="https://github.com/michael-77" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
